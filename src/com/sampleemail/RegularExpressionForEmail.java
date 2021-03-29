@@ -1,10 +1,19 @@
 package com.sampleemail;
 
+/*
+@description: creating a class to defining regular expression
+for email id
+
+@parameters: declare a method email() to check
+regular expression is true or false for email id
+*/
+
 import java.util.*;
 import java.util.regex.*;
 
 public class RegularExpressionForEmail {
 	
+	//to check regular expression for email id
 	public static boolean email() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter email: ");
